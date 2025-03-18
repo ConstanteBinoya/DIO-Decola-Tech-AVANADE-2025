@@ -1,4 +1,4 @@
-package me.dio.decola_tech_avanade_2025.model;
+package me.dio.d_t_avanade_2025.domain.model;
 
 import jakarta.persistence.*;
 
@@ -14,7 +14,7 @@ public class Card {
 	@Column(unique = true)
 	private String number;
 
-	@Column(scale = 13, precision = 2)
+	@Column(precision = 13, scale = 2)
 	private BigDecimal creditLimit;
 
 	@OneToOne(mappedBy = "card")

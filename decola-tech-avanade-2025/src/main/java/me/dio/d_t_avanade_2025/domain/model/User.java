@@ -1,4 +1,4 @@
-package me.dio.decola_tech_avanade_2025.model;
+package me.dio.d_t_avanade_2025.domain.model;
 
 import jakarta.persistence.*;
 
