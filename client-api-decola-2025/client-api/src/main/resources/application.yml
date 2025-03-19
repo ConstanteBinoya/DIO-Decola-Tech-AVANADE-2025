@@ -1,9 +1,9 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:clientdb
-    username: sa
-    password:
-    driver-class-name: org.h2.Driver
+    url: ${DATABASE_URL}  # Aqui você vai usar a variável de ambiente DATABASE_URL
+    driver-class-name: org.postgresql.Driver
+    username: ${DB_USER}  # Caso queira usar variáveis de ambiente para o username
+    password: ${DB_PASSWORD}  # Caso queira usar variáveis de ambiente para a senha
   jpa:
     show-sql: true
     hibernate:
