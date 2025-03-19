@@ -16,7 +16,7 @@ public class Account {
 
 	private String agency;
 
-	@Column( precision = 13, scale = 2)
+	@Column(precision = 13, scale = 2)
 	private BigDecimal balance;
 
 	@Column(precision = 13, scale = 2)
@@ -58,12 +58,12 @@ public class Account {
 		this.balance = balance;
 	}
 
-	public BigDecimal getLimit() {
+	public BigDecimal getCreditLimit() {
 		return creditLimit;
 	}
 
-	public void setLimit(BigDecimal limit) {
-		this.creditLimit = limit;
+	public void setCreditLimit(BigDecimal creditLimit) {
+		this.creditLimit = creditLimit;
 	}
 
 	public User getUser() {

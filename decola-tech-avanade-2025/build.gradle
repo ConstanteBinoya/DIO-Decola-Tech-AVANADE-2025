@@ -18,10 +18,26 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+    // Spring Boot e Web
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-validation'  // Adicionado para validação de Beans
+	
+	// Spring Data JPA e H2 Database
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	runtimeOnly 'com.h2database:h2'
 	runtimeOnly 'org.postgresql:postgresql'
+	
+	// Hibernate Validator (para resolver o erro de Bean Validation)
+	implementation 'org.hibernate.validator:hibernate-validator:8.0.1.Final' 
+    implementation 'org.glassfish:jakarta.el:4.0.2'  
+	
+	//OpenAPI (Swagger) https://github.com/springdoc/springdoc-openapi
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0'
+	implementation 'io.springfox:springfox-boot-starter:3.0.0'
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0'  // Atualizado para versão mais recente
+	
+	// Testes
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }

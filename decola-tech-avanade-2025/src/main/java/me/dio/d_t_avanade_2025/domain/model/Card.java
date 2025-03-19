@@ -37,12 +37,12 @@ public class Card {
 		this.number = number;
 	}
 
-	public BigDecimal getLimit() {
+	public BigDecimal getCreditLimit() {
 		return creditLimit;
 	}
 
-	public void setLimit(BigDecimal limit) {
-		this.creditLimit = limit;
+	public void setCreditLimit(BigDecimal creditLimit) {
+		this.creditLimit = creditLimit;
 	}
 
 	public User getUser() {

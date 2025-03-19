@@ -27,6 +27,7 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<News> news;
 
+    // Getters e Setters
 	public Long getId() {
 		return id;
 	}
@@ -75,6 +76,6 @@ public class User {
 		this.news = news;
 	}
 
-    // Getters e Setters
+
 
 }
