@@ -98,12 +98,12 @@ erDiagram
         varchar block_reason
     }
 
-    -- Relacionamentos
-    BOARD ||--|{ BOARD_COLUMN : possui
-    BOARD_COLUMN ||--|{ TASK : contém
-    TASK ||--|{ BLOCK : pode_te
-
+    %% Relacionamentos
+    BOARD ||--|{ BOARD_COLUMN : has
+    BOARD_COLUMN ||--|{ TASK : contains
+    TASK ||--|{ BLOCK : may_have
 ```
+
 ### 🔹 Explicação das Entidades
 📌 BOARD – Representa um quadro onde as tarefas são organizadas.  
 📌 BOARD_COLUMN – São as colunas dentro de um quadro (To-Do, Em Progresso, Finalizado, etc.).  
