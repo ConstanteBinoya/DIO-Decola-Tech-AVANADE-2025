@@ -69,39 +69,38 @@ Aqui está o diagrama de entidades do TaskFlow, pronto para ser inserido no form
 🎨 Modelo ER (Entidade-Relacionamento)
 
 ```mermaid
-erDiagram
-    BOARD {
-        bigint id PK
-        varchar name
+classDiagram
+    class Board {
+        +Long id
+        +String name
     }
 
-    BOARD_COLUMN {
-        bigint id PK
-        bigint board_id FK
-        varchar name
-        int order
-        varchar kind
+    class BoardColumn {
+        +Long id
+        +Long boardId
+        +String name
+        +int order
+        +String kind
     }
 
-    TASK {
-        bigint id PK
-        bigint board_column_id FK
-        varchar title
-        varchar description
+    class Task {
+        +Long id
+        +Long boardColumnId
+        +String title
+        +String description
     }
 
-    BLOCK {
-        bigint id PK
-        bigint task_id FK
-        timestamp blocked_at
-        timestamp unblocked_at
-        varchar block_reason
+    class Block {
+        +Long id
+        +Long taskId
+        +Timestamp blockedAt
+        +Timestamp unblockedAt
+        +String blockReason
     }
 
-    -- Relacionamentos
-    BOARD ||--|{ BOARD_COLUMN : possui
-    BOARD_COLUMN ||--|{ TASK : contém
-    TASK ||--|{ BLOCK : pode_te
+    Board "1" --> "0..*" BoardColumn : has
+    BoardColumn "1" --> "0..*" Task : contains
+    Task "1" --> "0..*" Block : mayHave
 
 ```
 ### 🔹 Explicação das Entidades
@@ -133,4 +132,4 @@ Toda ajuda é bem-vinda! 🚀🔥
 Se tiver alguma dúvida, sugestão ou feedback, fique à vontade para entrar em contato! Vamos conversar! 😃
 
 Email: constantebinoyaz1@gmail.com   
-GitHub: https://github.com/ConstanteBinoya
+GitHub: https://github.com/ConstanteBinoya/DIO-Decola-Tech-AVANADE-2025
