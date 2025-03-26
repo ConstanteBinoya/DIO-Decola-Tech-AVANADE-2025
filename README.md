@@ -5,7 +5,7 @@ Bem-vindo ao repositório **DIO Decola-Tech-Avanade-2025**! 🎉 Este repositór
 ## Sobre o Criador 👨‍💻
 
 Olá, sou **Constante Binoya**! 👋  
-Sou **estudante de programação** e **graduando em Engenharia de Software**, atualmente em **transição de carreira** para a área de TI. Minha jornada está sendo impulsionada pela **sede de aprendizagem** e pela busca constante por **efetividade**. Através deste repositório, compartilho meus projetos, que são resultado do meu empenho e dedicação ao longo do **bootcamp Decola-Tech-Avanade-2025**.
+Sou **estudante de programação**, **bacharel em Administração de Empresas** e estou **cursando o 1º período de Engenharia de Software**, atualmente em **transição de carreira** para a área de TI. Minha jornada está sendo impulsionada pela **sede de aprendizagem** e pela busca constante por **efetividade**. Através deste repositório, compartilho meus projetos, que são resultado do meu empenho e dedicação ao longo do **bootcamp Decola-Tech-Avanade-2025**.
 
 ## Sobre este repositório 💻
 
