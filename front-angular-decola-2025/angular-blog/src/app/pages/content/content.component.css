@@ -1,0 +1,49 @@
+.container__content{
+
+  width: 100%;
+  height: 100vh;
+
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.content__cover > img{
+  border:5px solid rgb(144, 144, 144);
+  border-radius: 5px;
+  width: 500px;
+  min-width: 500px;
+  height: 300px;
+}
+
+.content__description{
+  margin-top: 15px;
+  width: 33%; /* Define o tamanho do texto como 1/3 da tela */
+  margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.spacer {
+  height: 20px; /* Define o tamanho do espaço */
+}
+
+.content__description > a{
+  display: inline-block; /* Faz o botão se comportar corretamente */
+  padding: 5px 10px; /* Adiciona espaçamento interno */
+  background-color: #8696a8; /* Cor de fundo azul */
+  color: white; /* Cor do texto */
+  font-weight: bold;
+  text-decoration: none; /* Remove o sublinhado do link */
+  border-radius: 5px; /* Borda arredondada */
+  box-shadow: 5px 5px 3px rgba(255, 0, 0, 0.61); /* Adiciona sombra */
+  transition: all 0.3s ease-in-out; /* Suaviza a transição ao passar o mouse */
+  border: none; /* Remove a borda padrão */
+}
+
+.content__description > p{
+  margin-top: 30px;
+  color: rgb(198, 197, 197);
+  text-align: justify; /* Justifica o texto */
+}
