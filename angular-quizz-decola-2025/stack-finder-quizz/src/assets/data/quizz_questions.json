@@ -1,0 +1,55 @@
+{
+  "title": "Qual é a sua stack ideal? Descubra seu perfil de desenvolvedor!",
+  "questions": [
+    {
+      "id": 1,
+      "question": "O que mais te atrai ao criar um site ou sistema?",
+      "options": [
+        {"id": 1, "name": "Criar interfaces visuais interativas e agradáveis", "alias": "A"},
+        {"id": 2, "name": "Criar lógicas eficientes para processar e armazenar dados", "alias": "B"},
+        {"id": 3, "name": "Trabalhar com todas as partes do sistema", "alias": "C"}
+      ]
+    },
+    {
+      "id": 2,
+      "question": "O que te dá mais satisfação ao programar?",
+      "options": [
+        {"id": 1, "name": "Ver a interface ganhando vida com animações e estilos", "alias": "A"},
+        {"id": 2, "name": "Ver o banco de dados funcionando perfeitamente", "alias": "B"},
+        {"id": 3, "name": "Conectar interface e lógica para fazer tudo funcionar", "alias": "C"}
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Qual ferramenta te anima mais para aprender e dominar?",
+      "options": [
+        {"id": 1, "name": "Frameworks como Angular, React ou Vue", "alias": "A"},
+        {"id": 2, "name": "Linguagens como Java, Python ou Node.js para APIs", "alias": "B"},
+        {"id": 3, "name": "Quero aprender ambas para ter mais flexibilidade", "alias": "C"}
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Quando encontra um bug, o que você faz primeiro?",
+      "options": [
+        {"id": 1, "name": "Olho no console do navegador e no código da interface", "alias": "A"},
+        {"id": 2, "name": "Verifico os logs do servidor e as requisições da API", "alias": "B"},
+        {"id": 3, "name": "Analiso tanto o frontend quanto o backend", "alias": "C"}
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Se pudesse escolher, em qual dessas áreas você se especializaria?",
+      "options": [
+        {"id": 1, "name": "Experiência do usuário e design de interfaces", "alias": "A"},
+        {"id": 2, "name": "Otimização de desempenho e estrutura de dados", "alias": "B"},
+        {"id": 3, "name": "Prefiro saber um pouco de tudo e integrar as tecnologias", "alias": "C"}
+      ]
+    }
+  ],
+  "results": {
+    "A": "Você tem forte inclinação para ser um Desenvolvedor Front-End!",
+    "B": "Você tem forte inclinação para ser um Desenvolvedor Back-End!",
+    "C": "Você tem forte inclinação para ser um Desenvolvedor Full-Stack!"
+  }
+}
