@@ -44,14 +44,14 @@ git clone https://github.com/seu-usuario/analise-sentimentos-azure.git
 
 
 #### 📸 **Resultados Obtidos**  
-![](/docs/captura1.png)
-![](/docs/captura2.png)
-![](/docs/captura3.png)
-![](/docs/captura4.png)
-![](/docs/captura5.png)
-![](/docs/captura6.png)
-![](/docs/captura7.png)
-![](/docs/captura8.png)
+![img1](docs/captura1.png)
+![](docs/captura2.png)
+![](docs/captura3.png)
+![](docs/captura4.png)
+![](docs/captura5.png)
+![](docs/captura6.png)
+![](docs/captura7.png)
+![](docs/captura8.png)
 
 #### ✅ **Conclusão**  
 ```md
