@@ -56,22 +56,22 @@ ng new meu-projeto
 🔧 **Após o processo terminado seu projeto terá a seguinte estrutura criada automaticamente pelo CLI:**
 
 - Logo após a finalização do `ng new`:    
-![Após o `ng new`](/.ideas/img/ng-new.png)  
+![Após o `ng new`](.ideas/img/ng-new.png)  
 
 - /vscode:  
-![Após o `ng new`](/.ideas/img/ng-new_vscode.png)  
+![Após o `ng new`](.ideas/img/ng-new_vscode.png)  
 
 - /node_modules:  
-![Após o `ng new`](/.ideas/img/ng-new_node_modules.png)  
+![Após o `ng new`](.ideas/img/ng-new_node_modules.png)  
 
 - /public:  
-![Após o `ng new`](/.ideas/img/ng-new_public.png)  
+![Após o `ng new`](.ideas/img/ng-new_public.png)  
 
 - /src:  
-![Após o `ng new`](/.ideas/img/ng-new_src.png)  
+![Após o `ng new`](.ideas/img/ng-new_src.png)  
 
 - /src/app:  
-![Após o `ng new`](/.ideas/img/ng-new_src_app.png)
+![Após o `ng new`](.ideas/img/ng-new_src_app.png)
 
 📌 **Toda esta estrutura, acima, é criada automaticamente pelo sistema ao executar o comando `ng new`.**
 
