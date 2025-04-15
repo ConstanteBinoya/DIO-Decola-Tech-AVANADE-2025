@@ -1,24 +1,29 @@
-<div class="container__big-card">
+<div class="container__big-card">   <!--Abertura do Contêiner principal do card. Aqui começa a estrutura do layout.-->
 
-  <div class="big-card__photo">
+  <div class="big-card__photo">   <!--Abertuda do Contêiner que exibe a imagem do post.-->
     <img
       src="{{ photoCover }}"
       alt=""
       height="200px"
       srcset=""
     >
-  </div>
+  </div>   <!--Fechamento do Contêiner que exibe a imagem do post.-->
 
-  <div class="big-card__title">
+  <div class="big-card__title">   <!--Abertuda do Contêiner que exibe o título do post.-->
     <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
-  </div>
+    <!--<h1>	Define o nível 1 de título — o mais importante da página.-->
+    <!--<a>	Define um link clicável, que aqui é usado com roteamento Angular.-->
+    <!--[routerLink]="['content', Id]"	Define a rota para onde o link vai.-->
+    <!--{{ cardTitle }}	Exibe o título do post, vindo do .ts.-->
 
-  <div class="big-card__description">
+  </div>   <!--Fechamento do Contêiner que exibe o título do post.-->
+
+  <div class="big-card__description">   <!--Abertuda do Contêiner que exibe a descrição do post.-->
     <p>
-      <a [routerLink]="['content', Id]">
-          {{ cardDescription }}
+      <a [routerLink]="['content', Id]">   <!--Define a rota de destino com base no ID.-->
+          {{ cardDescription }}            <!--Exibe o texto da descrição, vindo do .ts.-->
       </a>
     </p>
-  </div>
+  </div>   <!--Fechamento do Contêiner que exibe a descrição do post.-->
 
-</div>
+</div>   <!--Fechamento do Contêiner principal.-->
