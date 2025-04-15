@@ -1,22 +1,33 @@
 .container__content{
-
   width: 100%;
   height: 100vh;
-
   margin-top: 20px;
-
   display: flex;
   flex-direction: column;
-
   align-items: center;
 }
 
 .content__cover > img{
-  border:5px solid rgb(144, 144, 144);
+  border:2px solid rgb(69, 56, 80);
+  box-shadow: 8px 8px 30px rgba(21, 83, 141, 0.986);
   border-radius: 5px;
   width: 500px;
   min-width: 500px;
   height: 300px;
+  transition: all 0.3s ease-in-out; /* Suaviza a transição do hover*/
+}
+
+.content__cover > img:hover {
+  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.content__title > h1{
+  transition: all 0.3s ease-in-out; /* Suaviza a transição do hover*/
+}
+
+.content__title > h1:hover{
+  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+  text-shadow: 5px 5px 8px rgb(2, 132, 253); /* Sombra no texto */
 }
 
 .content__description{
@@ -32,18 +43,29 @@
 .content__description > a{
   display: inline-block; /* Faz o botão se comportar corretamente */
   padding: 5px 10px; /* Adiciona espaçamento interno */
-  background-color: #8696a8; /* Cor de fundo azul */
-  color: white; /* Cor do texto */
+  background-color: #88a4c4; /* Cor de fundo azul */
+  color: rgb(35, 28, 141); /* Cor do texto */
   font-weight: bold;
   text-decoration: none; /* Remove o sublinhado do link */
   border-radius: 5px; /* Borda arredondada */
-  box-shadow: 5px 5px 3px rgba(255, 0, 0, 0.61); /* Adiciona sombra */
+  box-shadow: 5px 5px 5px rgba(21, 83, 141, 0.986); /* Adiciona sombra */
   transition: all 0.3s ease-in-out; /* Suaviza a transição ao passar o mouse */
   border: none; /* Remove a borda padrão */
+}
+
+.content__description > a:hover {
+  background-color: #56789a; /* nova cor de fundo ao passar o mouse */
+  color: white; /* cor do texto ao passar o mouse (opcional) */
 }
 
 .content__description > p{
   margin-top: 30px;
   color: rgb(198, 197, 197);
   text-align: justify; /* Justifica o texto */
+  transition: all 0.3s ease-in-out; /* Suaviza a transição do hover*/
+}
+
+.content__description > p:hover{
+  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+  text-shadow: 5px 5px 8px rgb(2, 132, 253); /* Sombra no texto */
 }

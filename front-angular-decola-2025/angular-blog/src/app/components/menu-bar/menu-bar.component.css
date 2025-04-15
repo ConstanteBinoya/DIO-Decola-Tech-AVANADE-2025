@@ -8,3 +8,29 @@
   list-style: none;
 }
 
+#linkedin{
+  transition: all 0.3s ease-in-out; /* Suaviza a transição do hover*/
+}
+
+#linkedin:hover{
+  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+  text-shadow: 5px 5px 8px rgb(2, 132, 253); /* Sombra no texto */
+}
+
+#github{
+  transition: all 0.3s ease-in-out; /* Suaviza a transição do hover*/
+}
+
+#github:hover{
+  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+  text-shadow: 5px 5px 8px rgb(2, 132, 253); /* Sombra no texto */
+}
+
+#email{
+  transition: all 0.3s ease-in-out; /* Suaviza a transição do hover*/
+}
+
+#email:hover{
+  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+  text-shadow: 5px 5px 8px rgb(2, 132, 253); /* Sombra no texto */
+}

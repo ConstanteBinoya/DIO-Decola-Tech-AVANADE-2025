@@ -5,10 +5,18 @@
 .container__menu-title > h1{
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 135px;
-  font-family: 'Open Sans', sans-serif;
+  /*font-size: 135px;*/
+  font-size: 110px;
+  font-family: 'VT323', monospace;
   display: flex;
   justify-content: center;
+  transition: all 0.3s ease-in-out; /* Suaviza a transição do hover*/
+}
+
+.container__menu-title > h1:hover{
+  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+  color: rgb(251, 255, 0); /* Cor nova ao passar o mouse */
+  text-shadow: 5px 5px 8px rgb(2, 132, 253); /* Sombra no texto */
 }
 
 .container__menu-title > hr{

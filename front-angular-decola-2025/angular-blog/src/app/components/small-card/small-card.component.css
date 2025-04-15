@@ -18,6 +18,12 @@
   min-width: 200px;
   margin-right: 20px;
   border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(21, 83, 141, 0.986);
+  transition: all 0.3s ease-in-out; /* Suaviza a transição do hover*/
+}
+
+.small-card__photo > img:hover{
+  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
 }
 
 .small-card__title {
@@ -28,6 +34,13 @@
 
 .small-card__title > h1 {
   font-size: 16px;
+  transition: all 0.3s ease-in-out; /* Suaviza a transição do hover*/
+}
+
+.small-card__title > h1:hover{
+  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+  color: rgb(35, 28, 141); /* Cor nova ao passar o mouse */
+  text-shadow: 5px 5px 8px rgb(2, 132, 253); /* Sombra no texto */
 }
 
 .container__small-card__separator{
